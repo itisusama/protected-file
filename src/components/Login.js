@@ -32,7 +32,7 @@ const Login = () => {
               <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
                       
                   <div>
-                      <input type="password" name="password" id="password" placeholder="••••••••" className="bg-transparent border border-gray-300 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 " required value={password} onChange={(e) => setPassword(e.target.value)}/>
+                      <input type="password" name="password" id="password" placeholder="You Can Guess the Password" className="bg-transparent border border-gray-300 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 " required value={password} onChange={(e) => setPassword(e.target.value)}/>
                   </div>
                   
                   <button type="submit" className="w-full bg-red-700 text-white mt-4 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-800">Enter</button>
