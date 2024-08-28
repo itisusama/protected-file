@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import MessageForm from '../components/MessageForm'
+import SavePageButton from '../components/SavaPageButton'
 
 const Dashboard = () => {
   const [messages, setMessages] = useState([])
@@ -32,7 +33,9 @@ const Dashboard = () => {
         </div>
         <div className='w-full md:w-[50%]'>
           <MessageForm/>
+          <SavePageButton/>
         </div>
+
       </section>
     </div>
   )

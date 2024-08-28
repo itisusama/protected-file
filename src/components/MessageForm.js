@@ -38,7 +38,7 @@ const MessageForm = () => {
       <input className='bg-transparent border rounded text-white caret-white outline-none' type="text" onChange={(e) => setName(e.target.value)} value={name} required/>
 
       <label>Message:</label>
-      <textarea className='bg-transparent border rounded text-white caret-white outline-none ml-5' type="text" onChange={(e) => setMessage(e.target.value)} value={message} required/>
+      <textarea className='bg-transparent border rounded text-white caret-white outline-none' type="text" onChange={(e) => setMessage(e.target.value)} value={message} required/>
 
       <button className='bg-red-700 p-2 rounded'>Send Message</button>
       {error && <div className="error">{error}</div>}
